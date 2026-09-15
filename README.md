@@ -230,15 +230,53 @@ DELETE http://localhost:8080/api/tasks/1
 
 The `screenshots` folder contains demonstrations of:
 
-* Main Application
-* Tasks Added
-* Completed Task
-* Edit/Delete Functionality
-* Postman GET API
-* Postman POST API
-* Postman PUT Update API
-* Postman PUT Complete API
-* Postman DELETE API
+## Screenshots
+
+### Main Application
+
+![Main Application](screenshots/01_Main_Application.png)
+
+### Tasks Added
+
+![Tasks Added](screenshots/02_Tasks_Added.png)
+
+### Completed Task
+
+![Completed Task](screenshots/03_Completed_Task.png)
+
+### Edit Functionality
+
+![Edit Functionality](screenshots/04_Edit_Functionality.png)
+
+### Delete Functionality
+
+![Delete Functionality](screenshots/05_Delete_Functionality.png)
+
+### Postman API Testing
+
+#### GET - All Tasks
+
+![GET All Tasks](screenshots/06_Postman_GET_All_Tasks.png)
+
+#### POST - Add Task
+
+![POST Add Task](screenshots/07_Postman_POST_Add_Task.png)
+
+#### PUT - Update Task
+
+![PUT Update Task](screenshots/08_Postman_PUT_Update_Task.png)
+
+#### PUT - Complete Task
+
+![PUT Complete Task](screenshots/09_Postman_PUT_Complete_Task.png)
+
+#### DELETE - Delete Task
+
+![DELETE Task](screenshots/10_Postman_DELETE_Task.png)
+
+### MySQL Database
+
+![MySQL Task Database](screenshots/11_MySQL_Task_Database.png)
 
 ## Author
 
