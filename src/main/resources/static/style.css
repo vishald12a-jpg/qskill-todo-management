@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button {
+    background: #2563eb;
+    color: white;
+}
+
+.task {
+    background: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.task.completed {
+    background: #dff5df;
+}
+
+.task h3 {
+    margin: 0;
+}
+
+.task p {
+    color: #555;
+}
+
+.actions button {
+    margin-right: 5px;
+}
+
+.complete {
+    background: green;
+    color: white;
+}
+
+.edit {
+    background: orange;
+    color: white;
+}
+
+.delete {
+    background: red;
+    color: white;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .task {
+        padding: 12px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
